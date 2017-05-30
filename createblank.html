@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>
+	创建空白问卷
+</title><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<link type="text/css" rel="stylesheet" href="css/NewDefault.css"> 
+    <script src="/js/zhezhao.js?v=1" type="text/javascript"></script>
+    <style type="text/css">
+	html,body
+	{
+	    height:100%;padding:0; margin:0;
+	}
+    </style>
+</head>
+<body>
+    <style>
+    #BS {
+        margin: 0 auto -250px;
+        padding: 0;
+        width: 100%;
+        min-height:100%;
+        height: auto !important;
+        height: 100%;
+        min-width: 980px;
+        }
+    </style>
+      
+    <div id="BS">
+        <div class="wheader">
+            <div class="wheader-inner">
+                <div class="wheader-lbox">
+                    <div class="wheader-sojumplogo">
+                        <h1>监理工程师在线课程</h1>
+                    </div>
+                </div>
+                <div class="wheader-menu">
+                    <div class="wheader-menu-item">
+                        <ul>
+                            <li id="ctl00_liIndex" class="acitve"><a href="index.html" title="监理工程师在线课程首页">首&nbsp;&nbsp;页</a></li>
+                            <li><a title="课件视频" href="Courseware.html">课件中心</a></li>             
+                            <li><a title="课件视频" href="tiku.html">在线考试</a></li>
+                            <li><a title="课件视频" href="user.html">个人管理中心</a></li></ul>
+                    </div>
+                    <div class="wheader-reg">
+                        <ul>
+                            <li id="ctl01_liRegister"><a href="register.html"><span class="btn btn-s site-res">注册</span></a></li>
+                            <li id="ctl01_liLogin"><a href="login.html"><span class="btn btn-s site-login">登录</span></a></li>
+                             <li id="ctl01_hrefQQ" style="margin-right: 0;"><a href="/connectnew.aspx" class="link-666" style="background: url(/images/wjx/ico_share/ico_qq.gif) no-repeat;
+                                padding-left: 17px; font-size: 12px;" title="QQ登录">QQ登录</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin:0 auto;  text-align:left;;">
+            
+<link rel="stylesheet" type="text/css" href="css/createq2.css">
+<style>
+     .wheader {
+    background: #f6f6f6;
+}
+</style>
+    <form name="aspnetForm" method="post" action="createblank.aspx" id="aspnetForm">
+<div>
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTQ0NDExMjc5OGRkvwOt9cKhwRR51BBUqpfz/fjU9gE=" type="hidden">
+</div>
+
+<div>
+
+	<input name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAP9UFCqK3fYPvnBRWZO1J96v/+23fyncZGZdL9NgMeAuw+FLAf+QRwsuP8WHmBjZ6qASxasFHeQaDhxPnGA5ehy4fvDwQ==" type="hidden">
+</div>
+        <div class="MBContent">
+            <div class="MTitle CRTitle" id="divCrTitle">
+                <h2><span>&nbsp;</span><img src="images/CRtitle-ico.jpg" width="24" height="34"><span id="spanTitle">创建调查问卷</span></h2>
+                <div style="position: relative; float: right;">
+                    <a href="javascript:" class="MTitle-txt blankother" id="hrefOther" style="display: none;">选择其他方式创建问卷</a>
+                    <div id="divOther" style="display: none; position: absolute; left: 0px; top: 42px; z-index: 100; width: 160px;" class="othermenu blank">
+                        <a href="/mysojump/newselecttemplete.aspx?qt=1">选择问卷模板</a>
+                        <a href="/mysojump/designqbytxt.aspx?qt=1">导入问卷文本</a>
+                        <a href="/mysojump/designservices.aspx?dp=1&amp;qt=1">录入问卷服务</a>
+                    </div>
+                    <script type="text/javascript">
+                        var hrefOther = document.getElementById("hrefOther");
+                        if(window.sb_setmenu){
+                            hrefOther.onmouseover = function () {
+                                var width = this.parentNode.width || this.parentNode.offsetWidth;
+                                sb_setmenu("divOther", true);
+                            }
+                            hrefOther.onmouseout = function () {
+                                sb_setmenu("divOther", false);
+                            }
+                        }
+                        else
+                            hrefOther.style.display="none";
+                    </script>
+                </div>
+            </div>
+            <div class="CRbox">
+                <div style="width: 700px; text-align: center; margin:0 auto;">
+
+                    <span style="font-size: 16px; font-weight:bold;" id="spanName">试卷名称：</span>
+
+                    <input name="ctl01$ContentPlaceHolder1$txtQName" maxlength="100" id="ctl01_ContentPlaceHolder1_txtQName" class="inputtext" style="height:25px;width:560px;line-height: 25px; vertical-align: middle;" type="text">
+                </div>   
+
+            <div style="margin:25px 0 30px;">
+                <table align="center">
+                    <tbody><tr>
+                        <td valign="middle">
+                            <span id="spanCode">
+                                
+                            </span>
+                        </td>
+                        <td valign="middle">
+                            <input name="ctl01$ContentPlaceHolder1$lbtnNextStep" value="确定" onclick="return checkLogin();" id="ctl01_ContentPlaceHolder1_lbtnNextStep" class="submitbutton" onmouseover="this.className='submitbutton submitbutton_hover';" onmouseout="this.className='submitbutton';" type="submit">&nbsp;<span id="ctl01_ContentPlaceHolder1_lblMsg" style="color:Red;"></span>
+                        </td>
+                        <td style="display: none;" valign="middle">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+                <div style="text-align: center;" id="divSurvey">
+                    <hr>
+                    <div class="CR-Occt">
+                        您还可以选择以下创建问卷方式<br>
+                        ⇓
+                    </div>
+                    <ul class="CR-Obox">
+                        
+                        <li><a href="/mysojump/designqbytxt.aspx?qt=1">
+                            <span class="CR-Otxt">导入问卷文本</span><p class="CR-pli CR-pli2"></p>
+                        </a></li>
+                        
+                    </ul>
+                    <div style="clear:both;padding-top:30px;font-size:14px;">
+                        <a href="/mysojump/choosetype.aspx" class="link-U666">返回选择问卷类型</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var isLogin=0;
+            var qType=1;
+            var txtQName=document.getElementById("ctl01_ContentPlaceHolder1_txtQName");
+            function checkLogin() {
+                if (!isLogin) {
+                    alert("您需要先登录才能创建新问卷，请先注册或登录！");
+                    //window.location.href="/register/register.aspx?returnurl="+encodeURIComponent(url);
+                    PDF_launch("/register/registers.aspx", 640,480, function () {
+                        if (isLogin) {
+                            PDF_launch(url, 500, 120);
+                        }
+                    },"注册问卷星");
+                    return false;
+                }
+                var name=txtQName.value;
+                if(!name){
+                    alert("问卷名不能为空！");
+                    return false;
+                }
+                if(name.indexOf("<")>-1){
+                    alert("问卷名不能包含“<”号号！");
+                    return false;
+                }
+                if(name.indexOf(">")>-1){
+                    alert("问卷名不能包含“>”号！");
+                    return false;
+                }
+                return true;
+            }
+            txtQName.focus();
+            var txtArray=["调查","考试","投票","表单","360测评","测评"];
+            var spanTitle=document.getElementById("spanTitle");
+            var spanName=document.getElementById("spanName");
+            spanTitle.innerHTML="创建"+txtArray[qType-1]+"问卷";
+            spanName.innerHTML=txtArray[qType-1]+"名称：";
+        </script>
+    </form>
+
+        </div>
+        <div style="height:280px;"></div>
+    </div>
+     <div id="Wfooter" style="height:320px;">
+        <div id="Wcontact">
+        <ul class="W-ulCons" style="border:0; padding:0; width:206px">
+          <img src="images/sojumpwjxlogonew.png" width="121"  style="display:block;" />
+        </ul>
+            <ul class="W-ulCons">
+              <li class="i-Common WulCons-i1">
+                    <a href="index.html">首页</a></li>
+              
+            </ul>
+            <ul class="W-ulCons">
+                <li class="i-Common WulCons-i2">
+                    <a href="Courseware.html">课件中心</a></li>
+               
+
+            </ul>
+            <ul class="W-ulCons">
+                <li class="i-Common WulCons-i3">
+                    <a href="tiku.html">在线考试</a></li>
+                
+            </ul>
+            <ul class="W-ulCons" style="width:165px; float:right;">
+                <li class="i-Common WulCons-i4"><a href="user.html">个人中心</a></li>
+                </ul>
+        </div>
+        <div class="W-coypright">
+            <ul class="WalCons W-fttx">
+                <li><span class="W-Rttx">Contact US</span><span class="W-Rttx">Tel：400-839-8080</span><span class="W-Rttx">E-mail：cs@sojump.com</span></li>
+            </ul>
+
+            <ul class="WalCons Walcons_txt">
+                <li class="W-mark">
+                    <img width="210" height="25" alt="" src="//image.sojump.com/images/MasterNew/bottom_right.gif"><br>
+                    监理工程师在线课程</li>
+            </ul>
+        </div>
+        <div id="ctl00_divImage" class="W-Fimg" align="center"><div style="position:relative">
+<a href="/images/html/promotemsg/licence_pic.jpg" target="_blank" style="background:url('//image.sojump.com/images/outside.gif') no-repeat; width:111px; height:42px; display:inline-block; border:0;"></a> &nbsp;&nbsp;&nbsp;
+<a href="http://sh.cyberpolice.cn" target="_blank" style="background:url('//image.sojump.com/images/MasterNew/police.gif') no-repeat; width:102px; height:35px; display:inline-block; border:0;"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.zx110.org" target="_blank" style="background:url('//image.sojump.com/images/MasterNew/socily.gif') no-repeat; width:102px; height:35px;border:0;display:inline-block; "></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.miibeian.gov.cn/" target="_blank" style="background:url('//image.sojump.com/images/MasterNew/icp.gif') no-repeat; width:102px; height:35px;border:0;display:inline-block; "></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a  key ="549255863b05a3da0fbc4cf9"  logo_size="83x30"  logo_type="realname"  href="http://www.anquan.org" ><script src="//static.anquan.org/static/outer/js/aq_auth.js"></script></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a  key ="553dfded58725379d18afc34"  logo_size="83x30"  logo_type="business"  href="http://www.anquan.org" ><script src="//static.anquan.org/static/outer/js/aq_auth.js"></script></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<div style="display:none;">
+</div></div>
+    </div>
+
+</body></html>
